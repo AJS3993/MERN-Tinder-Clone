@@ -13,6 +13,10 @@ function TinderCards() {
     return (
         <div className='tinderCards'>
             
+{people.map((person) => (
+    <h1>{person.name}</h1>
+))}
+
         </div>
     )
 }

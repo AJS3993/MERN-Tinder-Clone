@@ -35,7 +35,7 @@ function TinderCards() {
                 onSwipe={(dir) => swiped(dir, person.name)}
                 onCardLeftScreen={() => outOfFrame(person.name)}>
                     <div
-                    style={{ backgroundImage: "url(" + person.url + ")"}}
+                    style={{ backgroundImage: `url(${person.url})`}}
                     className='card'>
                         <h3>{person.name}</h3>
                     </div>

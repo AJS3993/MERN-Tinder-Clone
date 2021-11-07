@@ -10,7 +10,9 @@ import IconButton from '@material-ui/core/IconButton';
 function SwipeButtons() {
     return (
         <div className='swipeButtons'>
-            
+            <IconButton className="swipButtons_repeat">
+                <ReplayIcon fontSize="large"/>
+            </IconButton>
         </div>
     )
 }
